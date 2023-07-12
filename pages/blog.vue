@@ -1,6 +1,6 @@
 <script setup lang='ts'>
 // findone doesnt work?
-const { data } = await useAsyncData('home', () => queryContent('/blog').findOne())
+const { data } = await useAsyncData('home', () => queryContent('/blog/article').findOne())
 // Find works
 // const { data } = await useAsyncData('home', () => queryContent('/blog').find())
 </script>
