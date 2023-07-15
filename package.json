@@ -14,5 +14,15 @@
     "@types/node": "^18.16.19",
     "nuxt": "^3.6.2",
     "nuxt-icon": "^0.4.2"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.34.0",
+    "@trpc/server": "^10.34.0",
+    "class-variance-authority": "^0.6.1",
+    "clsx": "^1.2.1",
+    "superjson": "^1.12.4",
+    "tailwind-merge": "^1.13.2",
+    "trpc-nuxt": "^0.10.6",
+    "zod": "^3.21.4"
   }
 }
