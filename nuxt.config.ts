@@ -3,5 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
-  ]
+    'nuxt-icon',
+  ],
+  nitro: {
+    preset: 'vercel-edge'
+  },
 })

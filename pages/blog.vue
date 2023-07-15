@@ -7,6 +7,7 @@ const { data } = await useAsyncData('home', () => queryContent('/blog/article').
 
 <template>
   <main>
+    <Icon name="uil:github" color="black" />
     <h1>This is a test</h1>
     <pre>
     {{ data }}
